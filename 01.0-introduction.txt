@@ -1,0 +1,78 @@
+1.To load header programs or the libraries in cpp we use:
+  #iclude<iostream>
+The entry point in cpp is the main function:
+  int main(){
+      //code part goes here
+      return 0;
+    }
+
+2.For taking input and sending the output in CPP we have to use std::cin and std::cout ,this are available in the iostream library.
+int main(){
+  int number;
+  std::cout<<"Enter an number: "
+  std::cin>>number;
+  std::cout<<"You Entered: "<<number<<std::endl;
+}
+
+3.Variables & Data Types:
+  1.int:integer value
+  2.float:single-precision floating-point values
+  3.double:double-precision floatin-point values
+  4.char:single characters
+
+  For Example:-
+  int x;
+  float y;
+  double z;
+  char c;
+
+4.Control Structures:
+  1.If-Else Statement 
+    if(condition){
+        Code part  
+      }
+    else{
+        Code part
+      }
+
+  2.While Loop
+    while(condition){
+        Code Part
+      }
+
+  3.For Loop
+    for(intitialization; condition; update){
+        Code Part Here
+      }
+
+  4.Switch Case
+    switch(variable){
+        case value1:
+          Code Part
+          break;
+        case value2:
+          Code Part
+          break;
+        case valuen:
+          Code Part
+          break;
+        default:
+          Code Part
+      }
+
+5.Functions:
+  Function are reusable blocks of code that can be called with arguments to perform a specific task.
+  Functions are defined with a return type, a name, a parameter list, and a body.
+    ReturnType functionName(ParameterType1 parameter1, ParameterType2 parameter2){
+        Function body
+        ....
+        return returnValue;
+      }
+  For Example:-
+    int add(int a, int b){
+        return a + b;
+      }
+    int main(){
+        int result = add(3, 4);
+        std::cout<<"3 + 4 = "<<result<<std::endl;
+      }
